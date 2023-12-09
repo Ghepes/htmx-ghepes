@@ -1,0 +1,19 @@
+{
+  "name": "htmx-ghepes",
+  "version": "1.0.0",
+  "description": "htmx by ghepes test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https//github.com/ghepes/htmx-ghepes/"
+  },
+  "keywords": [
+    "htmx",
+    "ghepes"
+  ],
+  "author": "Ghepes",
+  "license": "MIT"
+}
