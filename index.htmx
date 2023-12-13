@@ -1,0 +1,16 @@
+
+import '..\node_modules\htmx.org\dist\htmx.js';
+import '..\node_modules\htmx.org\dist\htmx.min.js';
+import '..\node_modules\htmx.org\dist\htmx.d.ts';
+
+ <script src="https://unpkg.com/htmx.org@1.9.9" integrity="sha384-QFjmbokDn2DjBjq+fM+8LUIVrAgqcNW2s0PjAxHETgRn9l4fvX31ZxDxvwQnyMOX" crossorigin="anonymous"></script>
+
+ <script src="./node_modules/htmx.org/dist/htmx.min.js"></script>
+
+
+
+  <script src="https://unpkg.com/htmx.org@1.9.9"></script>
+  <!-- have a button POST a click via AJAX -->
+  <button hx-post="/clicked" hx-swap="outerHTML">
+    Click Me
+  </button>
